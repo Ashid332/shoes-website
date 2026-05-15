@@ -1,63 +1,36 @@
-# 👟 Nike Shoes E-Commerce Landing Page
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-![Banner](https://img.shields.io/badge/Status-Premium-brightgreen)
-![Tech](https://img.shields.io/badge/Tech-HTML5%20%7C%20CSS3%20%7C%20JS-blue)
-![Design](https://img.shields.io/badge/Design-Glassmorphism-purple)
+## Getting Started
 
-A high-end, responsive, and visually stunning e-commerce landing page for Nike footwear. This project showcases modern web design principles, featuring smooth animations, interactive components, and a premium aesthetic designed to convert visitors into customers.
+First, run the development server:
 
----
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## ✨ Key Features
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **🚀 Premium Aesthetics**: Modern design with a focus on high-quality imagery and typography.
-- **📱 Fully Responsive**: Optimized for all devices, from desktop monitors to mobile screens.
-- **🎨 Glassmorphism & Modern UI**: Subtle transparency effects and clean layouts for a premium feel.
-- **⚡ Interactive Product Gallery**: Switch between product views seamlessly with a custom JavaScript-powered viewer.
-- **🛍️ Conversion Focused**: Prominent Call-to-Actions (CTAs) and an intuitive shopping experience.
-- **💬 Customer Social Proof**: Integrated review section with star ratings to build trust.
-- **📧 Dynamic Newsletter**: Elegant subscription form for customer engagement.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 🛠️ Technology Stack
+## Learn More
 
-- **HTML5**: Semantic structure for better SEO and accessibility.
-- **CSS3 (Custom)**: Advanced layouts, custom animations, and responsive design (no frameworks).
-- **JavaScript**: Interactive UI elements and dynamic product switching.
-- **FontAwesome**: High-quality vector icons for a professional look.
-- **Google Fonts**: Curated typography for readability and style.
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 📸 Preview
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-*To see the live site locally, clone the repo and open `index.html` in your browser.*
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 🚀 Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Ashid332/shoes-website.git
-   ```
-2. **Open the project**
-   Navigate to the directory and open `index.html` in any modern web browser.
-
----
-
-## 👨‍💻 Author
-
-**Ashid**
-- GitHub: [@Ashid332](https://github.com/Ashid332)
-
----
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-*Show your support by giving a ⭐ if you like this project!*
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
