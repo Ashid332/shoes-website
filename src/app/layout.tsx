@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import AuthProvider from "@/components/auth/AuthProvider";
 import CartDrawer from "@/components/cart/CartDrawer";
+import Navbar from "@/components/layout/Navbar";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -23,7 +24,10 @@ export default function RootLayout({
     <html lang="en" className={`dark scroll-smooth ${inter.variable} antialiased`}>
       <body className="min-h-full flex flex-col bg-background text-foreground overflow-x-hidden selection:bg-accent selection:text-white">
         <AuthProvider>
-          {children}
+          <Navbar />
+          <main className="flex-1">
+            {children}
+          </main>
           <CartDrawer />
         </AuthProvider>
       </body>
